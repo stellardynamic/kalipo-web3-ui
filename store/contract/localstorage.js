@@ -83,7 +83,6 @@ function extractDataByObject(requiredObject, givenObject) {
 			continue;
 		}
 
-
 		
 		if (Array.isArray(currentRequiredProp)) {
 			if (Array.isArray(currentGivenProp)) {

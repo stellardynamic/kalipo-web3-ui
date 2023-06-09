@@ -256,7 +256,7 @@ import TitleProvision from '../provisions/TitleProvision.vue';
             if (this.$refs.form.validate()) {
                 // this.transaction.assets = this.$store.state.contract;
                 this.transaction.assets = this.$store.getters["contract/filtered"];
-                this.uri = "";
+                this.uri = "/contract/agreements";
                 this.dialog = true;
             }
         },

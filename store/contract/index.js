@@ -30,7 +30,7 @@ function genericErrorChecking(payload, state, type='string') {
 	if (payload.key === undefined) {
 		console.error('payload.key is not defined');
 		return false;
-	} 
+	}
 	
 	if (type==='string' && state.body.formData[payload.key] === undefined) {
 		console.error('state.body.formData[payload.key] is undefined');
